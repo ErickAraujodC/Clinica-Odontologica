@@ -1,0 +1,39 @@
+.header{
+    background-color: #1b3675;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #fff ;
+}
+
+.header-content{
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: auto;
+}
+
+.logo{
+    margin: 25px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-link, .nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid #fff;
+}

@@ -1,0 +1,108 @@
+.limit-container{
+    max-width: 1024px;
+    margin: auto;
+}
+
+ul {
+    list-style:none;
+    padding-left:0;
+}
+
+.home-presentation{
+    padding-top: 100px;
+    background-color: #1b3675;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.home-presentation h1{
+    color: #fdb203;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 2.4px;
+
+}
+
+.home-presentation h1 span{
+    font-weight: 500;
+
+}
+
+.home-presentation p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.list-services{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.list-services li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.list-services li p{
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.list-services li img {
+    object-fit: contain;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.list-services li p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+/*Section Bracket*/
+
+.img-bracket{
+    width: 100%;
+    max-width: 700px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.list-about-bracket{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.list-about-bracket li{
+    padding: 0 15px;
+    list-style: none;
+    text-align: start;
+    flex: 1;
+}
+
+
+
+/*btn*/
+
+.btn-contact{
+    background-color: #1b3675;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-contact:hover{
+    box-shadow: 0 0 10px 5px  rgba(0, 0, 0, 0.46);
+}
